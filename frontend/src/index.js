@@ -4,7 +4,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 import App from "./App";
 
 const client = new ApolloClient({
-  uri: "http://localhost:5000/graphql",
+  uri: "https://graph-ql-form-api.vercel.app/graphql",
   cache: new InMemoryCache(),
 });
 
