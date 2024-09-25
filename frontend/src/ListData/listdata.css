@@ -1,0 +1,41 @@
+.summary-container {
+    margin: 20px auto;
+    max-width: 100%;
+    padding: 0 5%;
+}
+
+.table-horizontal {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table-horizontal th,
+.table-horizontal td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.table-horizontal tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table-horizontal th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-horizontal td {
+    background-color: #ffffff;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+
+    .table-horizontal th,
+    .table-horizontal td {
+        padding: 8px;
+    }
+}
