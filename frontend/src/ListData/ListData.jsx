@@ -56,7 +56,7 @@ const ListData = () => {
   }
 
   if (error) {
-    return <h2>{error}</h2>;
+    return <h2 className="text-center">{error}</h2>;
   }
 
   return (
