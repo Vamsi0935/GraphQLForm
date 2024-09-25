@@ -39,3 +39,46 @@
         padding: 8px;
     }
 }
+
+@media (max-width: 576px) {
+
+    .table-horizontal th,
+    .table-horizontal td {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .summary-container {
+        padding: 0 3%;
+    }
+
+    .table-horizontal th {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .summary-container {
+        max-width: 90%;
+        padding: 0 4%;
+    }
+
+    .table-horizontal th,
+    .table-horizontal td {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1201px) {
+
+    .summary-container {
+        max-width: 80%;
+        padding: 0 2%;
+    }
+
+    .table-horizontal th,
+    .table-horizontal td {
+        padding: 14px;
+    }
+}
