@@ -32,6 +32,7 @@ const ListData = () => {
       try {
         const response = await axios.post("http://localhost:5000/graphql", {
           query,
+          withCredentials: true,
         });
         setUsers(response.data.data.users);
       } catch (error) {

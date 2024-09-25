@@ -97,6 +97,7 @@ const Form = () => {
             headers: {
               "Content-Type": "application/json",
             },
+            withCredentials: true,
           }
         );
 
@@ -139,8 +140,6 @@ const Form = () => {
       </div>
       <hr />
       <form onSubmit={handleSubmit}>
-        {/* Form fields... (same as in your original code) */}
-
         <div className="row">
           <label htmlFor="firstName">Full Name:</label>
           <div className="col">

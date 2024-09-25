@@ -6,7 +6,15 @@ const resolvers = require("./graphql/resolvers");
 const cors = require("cors");
 
 const app = express();
-app.use(cors());
+
+// Allow specific origin (your front-end domain)
+app.use(
+  cors({
+    origin: "http://localhost:3000",
+    methods: "GET,POST",
+    credentials: true,
+  })
+);
 
 const startServer = async () => {
   const server = new ApolloServer({
