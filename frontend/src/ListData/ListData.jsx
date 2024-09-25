@@ -30,7 +30,7 @@ const ListData = () => {
       `;
 
       try {
-        const response = await axios.post("https://graph-ql-form-api.vercel.app/graphql", {
+        const response = await axios.post("http://localhost:5000/graphql", {
           query,
           withCredentials: true,
         });

@@ -68,7 +68,7 @@ const Form = () => {
     if (validateForm()) {
       try {
         const response = await axios.post(
-          "https://graph-ql-form-api.vercel.app/graphql",
+          "http://localhost:5000/graphql",
           {
             query: `
               mutation CreateUser($input: UserInput!) {

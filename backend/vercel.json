@@ -11,12 +11,6 @@
         "src": "/",
         "dest": "/index.js"
       }
-    ],
-    "rewrites": [
-      {
-        "source": "/graphql",
-        "destination": "http://localhost:5000/graphql"
-      }
-    ]      
+    ]    
 }
   
