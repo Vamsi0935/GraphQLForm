@@ -10,7 +10,7 @@ const app = express();
 // Allow specific origin (your front-end domain)
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "http://localhost:3000","https://graph-ql-form.vercel.app",
     methods: "GET,POST",
     credentials: true,
   })
